@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\bin\Debug\Textractor.exe.config
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\bin\Debug\Textractor.exe
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\bin\Debug\Textractor.pdb
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\obj\Debug\Textractor.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\obj\Debug\Textractor.Properties.Resources.resources
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\obj\Debug\Textractor.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\obj\Debug\Textractor.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\obj\Debug\Textractor.exe
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\obj\Debug\Textractor.pdb
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\obj\Debug\Textractor.FrmMain.resources

@@ -1,0 +1,10 @@
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\bin\Debug\Text Packer.exe.config
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\bin\Debug\Text Packer.exe
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\bin\Debug\Text Packer.pdb
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\obj\Debug\Text Packer.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\obj\Debug\Text_Packer.FrmMain.resources
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\obj\Debug\Text_Packer.Properties.Resources.resources
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\obj\Debug\Text Packer.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\obj\Debug\Text Packer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\obj\Debug\Text Packer.exe
+C:\Users\Admin\source\repos\Textractor\Textractor\Textractor\obj\Debug\Text Packer.pdb
