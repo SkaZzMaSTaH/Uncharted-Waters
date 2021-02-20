@@ -26,7 +26,7 @@ namespace Lib
             byte c;
 
             string text;
-            int count, offset;
+            int count, offset = 0;
             long pos;
 
             Reader = new BinaryReader(new MemoryStream(buffer));
@@ -49,7 +49,10 @@ namespace Lib
                     if (BitConverter.IsLittleEndian)
                         Array.Reverse(b);
 
-                    offset = BitConverter.ToUInt16(b, 0);
+                    if (bits == 16)
+                        offset = BitConverter.ToUInt16(b, 0);
+                    else if (bits == 32)
+                        offset = BitConverter.ToInt32(b, 0);
 
                     pos = Reader.BaseStream.Position;
 
@@ -65,7 +68,7 @@ namespace Lib
                         if (c != 0x00)
                         {
                             if (c == 0x0a)
-                                text += "\\r";
+                                text += "\\n";
                             else
                                 text += (char)c;
                         }
@@ -94,11 +97,12 @@ namespace Lib
             int offset;
             int firstOffset;
 
+            char[] content;
             byte[] b;
 
             // Replace /r by newline
             for (int i = 0; i < collection.Length; i++)
-                collection[i] = collection[i].Replace("\\r", "\r");
+                collection[i] = collection[i].Replace("\\n", "\n");
 
             // Sets the offsets
             firstOffset = (collection.Length) * (bits / 8);
